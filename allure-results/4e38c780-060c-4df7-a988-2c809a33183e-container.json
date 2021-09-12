@@ -1,0 +1,1 @@
+{"uuid":"4e38c780-060c-4df7-a988-2c809a33183e","name":"TeacherTest","start":1603596268404,"stop":1603596271801,"children":["50436ad6-49a4-4cf4-8e3b-6fe672f8f72c"],"befores":[{"name":"测试准备，获取httpclient对象","status":"passed","stage":"finished","description":"测试准备，获取httpclient对象","start":1603596268426,"stop":1603596268819}]}

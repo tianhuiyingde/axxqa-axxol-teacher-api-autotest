@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[----开始测试-----]]>
+    </line>
+  </reporter-output>
+  <suite name="TeacherTest" duration-ms="1890" started-at="2020-10-24T13:52:28Z" finished-at="2020-10-24T13:52:30Z">
+    <groups>
+      <group name="getKey">
+        <method signature="AuthKeyTest.getPublicKeyTest()[pri:0, instance:cases.login.AuthKeyTest@7859e786]" name="getPublicKeyTest" class="cases.login.AuthKeyTest"/>
+      </group> <!-- getKey -->
+      <group name="teacherlogin">
+        <method signature="AuthLoginTest.loginTest(org.simfast.simpletester.core.TestData)[pri:0, instance:cases.login.AuthLoginTest@285d851a]" name="loginTest" class="cases.login.AuthLoginTest"/>
+      </group> <!-- teacherlogin -->
+    </groups>
+    <test name="login" duration-ms="1890" started-at="2020-10-24T13:52:28Z" finished-at="2020-10-24T13:52:30Z">
+      <class name="cases.login.AuthLoginTest">
+        <test-method name="loginTest" signature="loginTest(org.simfast.simpletester.core.TestData)[pri:0, instance:cases.login.AuthLoginTest@285d851a]" depends-on-groups="getKey" status="PASS" duration-ms="559" finished-at="2020-10-24T13:52:30Z" started-at="2020-10-24T13:52:29Z" data-provider="excel" description="教师登录">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.simfast.simpletester.core.TestData@4b6e1c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- cases.login.AuthLoginTest -->
+      <class name="cases.TestBase">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:cases.TestBase@361c294e]" name="BeforeSuite" is-config="true" duration-ms="562" started-at="2020-10-24T13:52:27Z" description="测试准备，获取httpclient对象" finished-at="2020-10-24T13:52:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[----开始测试-----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+      </class> <!-- cases.TestBase -->
+      <class name="cases.login.AuthKeyTest">
+        <test-method status="PASS" signature="getPublicKeyTest()[pri:0, instance:cases.login.AuthKeyTest@7859e786]" name="getPublicKeyTest" duration-ms="758" started-at="2020-10-24T13:52:28Z" description="教师登录获取pubkey" finished-at="2020-10-24T13:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPublicKeyTest -->
+      </class> <!-- cases.login.AuthKeyTest -->
+    </test> <!-- login -->
+  </suite> <!-- TeacherTest -->
+</testng-results>

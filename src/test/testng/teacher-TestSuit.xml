@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TeacherTest">
+
+    <test name="teacher">
+        <classes>
+            <class name="cases.TestBase"/>
+            <class name="cases.login.AuthKeyTest">
+                <methods>
+                    <include name="getPublicKeyTest"/>
+                </methods>
+            </class>
+            <class name="cases.login.AuthLoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="cases.homePage.HourEnoughTest">
+                <methods>
+                    <include name="hourEnoughTest"/>
+                </methods>
+            </class>
+            <class name="cases.homePage.ConditionTest">
+                <methods>
+                    <include name="conditionTest"/>
+                </methods>
+            </class>
+            <class name="cases.homePage.CoursePageTest">
+                <methods>
+                    <include name="coursePageTest"/>
+                </methods>
+            </class>
+            <class name="cases.CourseDetail.CourseDetailTest">
+                <methods>
+                    <include name="courseDetailTestByList"/>
+                    <include name="courseDetailTestByExcel"/>
+                </methods>
+            </class>
+            <class name="cases.CourseDetail.GreyConfigTest">
+                <methods>
+                    <include name="greyConfigTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
